@@ -12,6 +12,7 @@ function NavBar() {
         </Link>
       </div>
       <div className="nav-container">
+        <div className="separate"></div>
         <Link to="/contact" className="nav-link">
           <h2>Contact</h2>
         </Link>
@@ -21,6 +22,9 @@ function NavBar() {
         <Link to="/ourService" className="nav-link">
           <h2>Our Services</h2>
         </Link>
+        <a className="number" href="tel:7184547374">
+          Call Us Now
+        </a>
       </div>
     </div>
   );
